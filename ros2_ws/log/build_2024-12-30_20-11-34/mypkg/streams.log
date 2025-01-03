@@ -1,0 +1,22 @@
+[0.660s] Invoking command in '/home/nakayama/ros2_ws/src/mypkg': PYTHONPATH=/home/nakayama/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/nakayama/ros2_ws/build/mypkg/build install --record /home/nakayama/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
+[0.789s] running egg_info
+[0.789s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.798s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.799s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.799s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.799s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.836s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.837s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.837s] running build
+[0.837s] running build_py
+[0.839s] running install
+[0.839s] running install_lib
+[0.842s] running install_data
+[0.843s] copying package.xml -> /home/nakayama/ros2_ws/install/mypkg/share/mypkg
+[0.843s] running install_egg_info
+[0.844s] removing '/home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.844s] Copying ../../build/mypkg/mypkg.egg-info to /home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.846s] running install_scripts
+[0.862s] Installing talker script to /home/nakayama/ros2_ws/install/mypkg/lib/mypkg
+[0.863s] writing list of installed files to '/home/nakayama/ros2_ws/build/mypkg/install.log'
+[0.882s] Invoked command in '/home/nakayama/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/nakayama/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/nakayama/ros2_ws/build/mypkg/build install --record /home/nakayama/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[0.317s] Invoking command in '/home/nakayama/ros2_ws/src/mypkg': PYTHONPATH=/home/nakayama/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/nakayama/ros2_ws/build/mypkg/build install --record /home/nakayama/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data
+[0.411s] running egg_info
+[0.411s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.411s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.412s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.412s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.412s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.429s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.430s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.430s] running build
+[0.430s] running build_py
+[0.430s] copying mypkg/listener.py -> /home/nakayama/ros2_ws/build/mypkg/build/lib/mypkg
+[0.430s] running install
+[0.430s] running install_lib
+[0.431s] copying /home/nakayama/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.431s] byte-compiling /home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[0.432s] running install_data
+[0.432s] running install_egg_info
+[0.433s] removing '/home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.433s] Copying ../../build/mypkg/mypkg.egg-info to /home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.434s] running install_scripts
+[0.443s] Installing talker script to /home/nakayama/ros2_ws/install/mypkg/lib/mypkg
+[0.443s] writing list of installed files to '/home/nakayama/ros2_ws/build/mypkg/install.log'
+[0.453s] Invoked command in '/home/nakayama/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/nakayama/ros2_ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nakayama/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/nakayama/ros2_ws/build/mypkg/build install --record /home/nakayama/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed install_data

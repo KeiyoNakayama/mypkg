@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-22.04
     container: ryuichiueda/ubuntu22.04-ros2:latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - name: Install Python depencies
         run: |
           apt-get update && apt-get install -y python3-pip
@@ -13,7 +13,7 @@ jobs:
           pip install psutil
       - name: build and test
         run: |
-          rsync -av ./ / root/mypkg/
-          cd /root/mypkg/
-          bash -xv ./mypkg/test/test.bash /root
+          rsync -av ./ /root/ros2_ws/src/robosys2_2/    
+          cd /root/ros2_ws
+          bash -xv ./src/robosys_2/test/test.bash /root
       

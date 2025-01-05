@@ -25,6 +25,7 @@ data: 'Context Switches: 836231, Interrupts: 229250, Soft Interrupts: 695512, Sy
 
 ## listener_cpu_stats概要
 - check_cpu_statsのテスト用
+
 ## 著作権・ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。  
 - © 2025 Keiyo Nakayama

@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'check_cpu_stats = mypkg.check_cpu_stats:main',
+            'listener_cpu_stats = mypkg.listener_cpu_stats',
         ],
     },
 )

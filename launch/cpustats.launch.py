@@ -10,7 +10,7 @@ def generate_launch_description():
             executable = 'check_cpu_stats',
             )
 
-    wifispeed_listner = launch_ros.actions.Node(
+    cpustats_listner = launch_ros.actions.Node(
             package = 'mypkg',
             executable = 'cpustats_listner',
             output = 'screen'

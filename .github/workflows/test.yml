@@ -3,7 +3,7 @@ on: push
 jobs:
   test:
     runs-on: ubuntu-22.04
-    container: keiyonakayama/ubuntu22.04-ros2:latest
+    container: ryuichiueda/ubuntu22.04-ros2:latest
     steps:
       - uses: actions/checkout@v3
       - name: Install Python depencies

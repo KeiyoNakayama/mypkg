@@ -23,8 +23,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = mypkg.talker:main',
-            'earthquake = mypkg.earthquake:main',
             'check_cpu_stats = mypkg.check_cpu_stats:main',
         ],
     },

@@ -10,10 +10,10 @@ def generate_launch_description():
             executable = 'check_cpu_stats',
             )
 
-    cpustats_listner = launch_ros.actions.Node(
+    listner_cpu_stats = launch_ros.actions.Node(
             package = 'mypkg',
-            executable = 'cpustats_listner',
+            executable = 'listner_cpu_stats',
             output = 'screen'
             )
 
-    return launch.LaunchDescription([check_cpu_stats, cpustats_listner])
+    return launch.LaunchDescription([check_cpu_stats, listner_cpu_stats])

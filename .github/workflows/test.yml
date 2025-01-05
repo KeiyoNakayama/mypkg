@@ -15,5 +15,5 @@ jobs:
         run: |
           rsync -av ./ /root/ros2_ws/src/robosys2_2/    
           cd /root/ros2_ws
-          bash -xv ./robosys_2/test/test.bash /root
+          bash -xv ./test/test.bash /root
       

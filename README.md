@@ -5,6 +5,7 @@
   ```shell
   pip install psutil
   ```
+  [![test](https://github.com/KeiyoNakayama/robosys_2/actions/workflows/test.yml/badge.svg)](https://github.com/KeiyoNakayama/robosys_2/actions/workflows/test.yml)
 ## check_cpu_stats概要
 - 1秒ごとにパソコンのcpu統計をトピックに流します。
 ## 実行例

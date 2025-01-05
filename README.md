@@ -18,9 +18,10 @@ data: 'Context Switches: 836078, Interrupts: 229223, Soft Interrupts: 695415, Sy
 data: 'Context Switches: 836231, Interrupts: 229250, Soft Interrupts: 695512, Syscalls: 0'
 ---
 ```
-## 作者
-Keiyo Nakayama  
-keiyou0206@gmail.com
+
 ## 著作権・ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。  
 - © 2025 Keiyo Nakayama
+## 作者
+Keiyo Nakayama  
+keiyou0206@gmail.com

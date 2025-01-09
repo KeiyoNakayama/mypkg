@@ -6,6 +6,10 @@
   pip install psutil
   ```
   [![test](https://github.com/KeiyoNakayama/robosys_2/actions/workflows/test.yml/badge.svg)](https://github.com/KeiyoNakayama/robosys_2/actions/workflows/test.yml)
+## 使用環境
+- ROS2 foxy
+- Ubuntu 20.04
+
 ## check_cpu_stats概要
 - 1秒ごとにパソコンのCPU統計情報をトピックに流します。
 - 流されるCPU統計情報は、「コンテキストスイッチ」、「割り込み」、「ソフト割り込み」、「システムコール」です。

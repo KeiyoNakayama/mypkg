@@ -7,7 +7,9 @@
   ```
   [![test](https://github.com/KeiyoNakayama/robosys_2/actions/workflows/test.yml/badge.svg)](https://github.com/KeiyoNakayama/robosys_2/actions/workflows/test.yml)
 ## check_cpu_stats概要
-- 1秒ごとにパソコンのcpu統計をトピックに流します。
+- 1秒ごとにパソコンのCPU統計情報をトピックに流します。
+- 流されるCPU統計情報は、「コンテキストスイッチ」、「割り込み」、「ソフト割り込み」、「システムコール」です。
+- 
 ## 実行例
 端末1：
 ```shell

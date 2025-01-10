@@ -8,6 +8,6 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
-timeout 10 ros2 launch mypkg check_cpu_stats > /tmp/mypkg.log
+timeout 10 ros2 launch mypkg launch cpustats.launch.py > /tmp/mypkg.log
 
-cat /tmp/mypkg.log | grep 'Syscalls:'
+cat /tmp/mypkg.log | grep 'Syscalls::'

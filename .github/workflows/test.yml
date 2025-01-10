@@ -16,10 +16,5 @@ jobs:
           rsync -av ./ /root/ros2_ws/src/robosys_2/    
           cd /root/ros2_ws
           bash -xv ./src/robosys_2/test/test.bash /root
-          if [ -f /root/ros2_ws/logs/test.log ]; then
-            echo "Displaying contents of test.log:"
-            cat /root/ros2_ws/logs/test.log
-          else
-            echo "No log file found at /root/ros2_ws/logs/test.log"
-          fi
+          
       

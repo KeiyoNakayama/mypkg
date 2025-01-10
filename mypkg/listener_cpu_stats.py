@@ -7,11 +7,11 @@ from std_msgs.msg import String
 
 class CpuStatsSubscriber(Node):
     def __init__(self):
-        super().__init__("CpuStatsSubscriber")
-        self.create_subscription(String, "cpustats", self.cb, 10)
+        super().__init__("cpu_stats_subscriber")
+        self.create_subscription(String, "cpu_stats", self.cb, 10)
 
     def cb(self, msg):
-        self.get_logger().info(f"{msg.data}")
+        self.get_logger().info(f"Received CPU stats: {msg.data}")
 
 def main():
     rclpy.init()

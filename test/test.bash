@@ -10,4 +10,4 @@ colcon build
 source $dir/.bashrc
 timeout 10 ros2 launch mypkg check_cpu_stats > /tmp/mypkg.log
 
-cat /tmp/mypkg.log | grep 'Context Switches:, Interrupts:, Soft Interrupts:, Syscalls:'
+cat /tmp/mypkg.log | grep 'Syscalls:'

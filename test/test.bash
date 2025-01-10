@@ -8,6 +8,6 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
-timeout 10 ros2 launch mypkg cpustats.launch.py > /tmp/mypkg.log
+timeout 75 ros2 launch mypkg cpustats.launch.py | tee - /tmp/mypkg.log
 
 cat /tmp/mypkg.log | grep 'Context Switches:, Interrupts:, Soft Interrupts:, Syscall:'

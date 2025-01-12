@@ -14,5 +14,5 @@ source $dir/.bashrc
 
 timeout 30 ros2 launch mypkg cpustats.launch.py > /tmp/mypkg.log
 
-cat /tmp/mypkg.log | grep -E 'Context Switches:.*, Interrupts:.*, Soft Interrupts:.*, Syscall:.*'
+cat /tmp/mypkg.log | grep  'Context Switches:.*, Interrupts:.*, Soft Interrupts:.*, Syscall:.*'
 

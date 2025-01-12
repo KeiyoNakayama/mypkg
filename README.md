@@ -5,7 +5,7 @@
   ```shell
   pip install psutil
   ```
-  [![test](https://github.com/KeiyoNakayama/robosys_2/actions/workflows/test.yml/badge.svg)](https://github.com/KeiyoNakayama/robosys_2/actions/workflows/test.yml)
+[![test](https://github.com/KeiyoNakayama/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/KeiyoNakayama/mypkg/actions/workflows/test.yml)
 ## 使用環境
 - ROS2 foxy
 - Ubuntu 20.04

@@ -13,8 +13,8 @@ jobs:
           pip install psutil
       - name: build and test
         run: |
-          rsync -av ./ /root/ros2_ws/src/robosys_2/    
+          rsync -av ./ /root/ros2_ws/src/mypkg/    
           cd /root/ros2_ws
-          bash -xv ./src/robosys_2/test/test.bash /root
+          bash -xv ./src/mypkg/test/test.bash /root
           
       
